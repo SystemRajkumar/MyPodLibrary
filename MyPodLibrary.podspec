@@ -32,10 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MyPodLibrary/Classes/**/*'
   s.swift_version = "5.0"
-  s.platform      = {
-    "ios": "13.0"
-    
-  }
+  s.platform      = :ios,"13.0"  
   
   # s.resource_bundles = {
   #   'MyPodLibrary' => ['MyPodLibrary/Assets/*.png']
