@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-"description."
+"this is a MyPodLibrary description."
                        DESC
 
   s.homepage         = 'https://github.com/systemrajkumar/MyPodLibrary'
